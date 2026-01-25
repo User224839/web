@@ -1,0 +1,20 @@
+/* Khan Academy HTML/CSS (Intro to HTML → More CSS Selectors)
+   Notes: solutions are recreated as standalone files (HTML + external CSS).
+*/
+* { box-sizing: border-box; }
+body { margin: 0; padding: 24px; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; line-height: 1.5; }
+img { max-width: 100%; height: auto; }
+a { color: inherit; }
+
+.hero{padding:56px 24px;border-radius:20px;background:linear-gradient(135deg,#e0f2fe,#fef9c3);border:1px solid #e5e7eb;}
+.hero__inner{max-width:960px;margin:0 auto;}
+.hero h1{margin:0 0 8px 0;font-size:2.2rem;}
+.hero p{margin:0 0 16px 0;color:#334155;}
+.btn{display:inline-block;padding:10px 14px;border-radius:12px;text-decoration:none;border:1px solid #94a3b8;background:#fff;}
+.wrap{max-width:960px;margin:18px auto 0;display:grid;gap:18px;}
+.card{padding:22px;border:1px solid #e5e7eb;border-radius:16px;background:#fff;}
+.gallery{display:grid;gap:14px;}
+@media(min-width:860px){.wrap{grid-template-columns:1fr 1fr;}.gallery{grid-column:1/-1;grid-template-columns:1fr 1fr;}}
+figcaption{margin-top:8px;color:#6b7280;font-size:.95rem;}
+.footer{max-width:960px;margin:18px auto 0;color:#6b7280;font-size:.95rem;}
+
