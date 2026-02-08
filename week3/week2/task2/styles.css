@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card {
+  width: 320px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, button {
+  padding: 10px;
+}
+
+button {
+  background-color: #0095f6;
+  color: white;
+  border: none;
+}
+
+.facebook {
+  background-color: #385185;
+}
+
+.or {
+  margin: 15px 0;
+  font-weight: bold;
+}
+
+.signup {
+  margin-top: 20px;
+}
