@@ -1,0 +1,18 @@
+<div class="card">
+  <div class="image-wrapper">
+    <img [src]="product.image" alt="{{ product.name }}">
+  </div>
+
+  <h3>{{ product.name }}</h3>
+  <p>{{ product.description }}</p>
+
+  <p class="price">{{ product.price | number }} ₸</p>
+  <p class="rating">⭐ {{ product.rating }}</p>
+
+  <a [href]="product.link" target="_blank">View on Kaspi</a>
+
+  <div class="share">
+    <a [href]="whatsappLink" target="_blank">WhatsApp</a>
+    <a [href]="telegramLink" target="_blank">Telegram</a>
+  </div>
+</div>
